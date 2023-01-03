@@ -16,7 +16,7 @@ public class ManagerInvoicedOrders {
 	public void loginToTheApplication() {
 		home.loginAsManager();
 	}
-
+ 
 	@When("manager selects picking tabs")
 	public void pickingTab() {
 		dmr.clickOnPickingTabs();

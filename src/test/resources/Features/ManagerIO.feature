@@ -4,7 +4,7 @@ Scenario: when user clicks on the action button in intransit status, these four 
 
 Given User logs into the application as manager
 When manager selects picking tabs
-Then manager clicks on the Invoiced orders options
+Then manager clicks on the Invoiced orders options 
 Then manager Clicks on the Action buttun for Intransit Status
 Then manager Click on the Sale Detail a new Window Should open with all details of the sale Details
 Then manager Click on the Sale details user can allow the print of sale details
